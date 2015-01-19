@@ -1,0 +1,23 @@
+{
+  "name": "pinoccio-serial-unofficial",
+  "version": "0.1.0",
+  "description": "serial tools for your pinoccio built on the node-serial interface. send commands, find wifi, program wifi, bootload and more. Note peer dependency on a serial port implementation of some kind.",
+  "main": "lib/pinoccio-serial-unofficial.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Rosenthal",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "bitlash-js": "^0.2.0",
+    "intel-hex": "^0.1.1",
+    "rest": "^1.3.0",
+    "stk500": "jacobrosenthal/js-stk500v1#v2"
+  },
+  "peerDependencies": {
+    "browser-serialport": "^2.0.0",
+    "chrome-serialport": "^2.3.1",
+    "serialport": "^1.4.10"
+  }
+}
