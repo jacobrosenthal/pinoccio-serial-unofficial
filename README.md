@@ -3,7 +3,7 @@
 Uses my [bitlash-js](https://github.com/jacobrosenthal/bitlash-js) to send commands, find wifi, program wifi, configure scouts and more.
 
 #install
-We have a peer dependency on serialport so if something else in your project isnt using it, youll need to grab that too.
+Technically has a dependency on serialport so if something else in your project isnt using it, youll need to grab that too.
 ```
 npm install serialport pinoccio-serial-unofficial
 ```
