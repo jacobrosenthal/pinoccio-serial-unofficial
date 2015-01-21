@@ -1,6 +1,6 @@
 {
   "name": "pinoccio-serial-unofficial",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "serial tools for your pinoccio built on the node-serial interface. send commands, find wifi, program wifi, bootload and more. Note peer dependency on a serial port implementation of some kind.",
   "main": "lib/pinoccio-serial-unofficial.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "chrome-serialport": "^2.3.1",
     "serialport": "^1.4.10"
   },
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/jacobrosenthal/pinoccio-serial-unofficial"
   },
